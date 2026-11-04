@@ -10,3 +10,18 @@
 .modules th, .modules td { border: 1px solid #ccc; padding: 12px; text-align: left; }
 .modules th { background: #003d7c; color: white; }
 .steps li { font-size: 18px; margin: 10px 0; }
+.links { display: flex; align-items: center; }
+.links .user { color: #cfe0f5; margin-left: 24px; font-size: 14px; }
+.links button { margin-left: 16px; background: #ef7c00; color: white; border: none; padding: 6px 14px; border-radius: 4px; cursor: pointer; font-size: 14px; }
+.auth { max-width: 420px; margin: 0 auto; background: white; padding: 32px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.tabs { display: flex; margin-bottom: 16px; }
+.tabs button { flex: 1; padding: 10px; border: 1px solid #003d7c; background: white; color: #003d7c; cursor: pointer; font-size: 15px; }
+.tabs button.active { background: #003d7c; color: white; }
+.auth form { display: flex; flex-direction: column; gap: 12px; }
+.auth input { padding: 10px; font-size: 15px; border: 1px solid #ccc; border-radius: 4px; }
+.auth .primary { padding: 10px; background: #003d7c; color: white; border: none; border-radius: 4px; font-size: 15px; cursor: pointer; }
+.divider { text-align: center; color: #888; margin: 16px 0; }
+.google { width: 100%; padding: 10px; background: white; border: 1px solid #ccc; border-radius: 4px; font-size: 15px; cursor: pointer; }
+.notice { padding: 12px; border-radius: 4px; margin-bottom: 16px; font-size: 14px; }
+.notice.error { background: #fdecea; color: #b3261e; border: 1px solid #f5c2c0; }
+.notice.info { background: #e8f0fb; color: #003d7c; border: 1px solid #c2d6f0; }
